@@ -4532,6 +4532,28 @@ body {
   font-size: 11px;
   line-height: 11px;
   color: #d11616 !important;
+  -webkit-animation: 0.5s fadeIn ease-in-out;
+          animation: 0.5s fadeIn ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .contacts-form__input {
